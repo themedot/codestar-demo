@@ -12,7 +12,7 @@ function csdemo_sample_metabox( $metaboxes ) {
 			array(
 				'name'   => 'csdemo-bookinfo-section',
 				'icon'   => 'fa fa-image',
-//				'title'=>__( 'Section One', 'codestar-demo' ),
+        //		'title'=>__( 'Section One', 'codestar-demo' ),
 				'fields' => array(
 					array(
 						'id'    => 'author',
