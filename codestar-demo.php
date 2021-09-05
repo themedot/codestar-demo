@@ -11,6 +11,7 @@ Text Domain: codestar-demo
 Domain Path: /languages
 */
 
+require_once(plugin_dir_path(__FILE__)."/lib/csf/codestar-framework.php");
 function csdemo_assets(){
     load_plugin_textdomain('codestar-demo',false,plugin_dir_path(__FILE__)."/languages");
 }
